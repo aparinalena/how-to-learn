@@ -96,14 +96,43 @@
   z-index: 2;
 }
 
-.two-columns {
-  background-color: #2f80ed;
+.description {
+  display: flex;
+  justify-content: space-between;
 }
+
+.two-columns {
+  background-color: #3d3e41;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  /* растянуть их по ширине */
+}
+
 
 .brief {
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal; 
-    color: #2f80ed;
+    color: hsl(210, 26%, 83%);
     width: 175px;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    margin: 0;
+}
+
+.paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  margin: auto;
+}
+
+.main-text {
+  width: 80%;
+  min-width: 784px;
+
 }
