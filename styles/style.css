@@ -55,6 +55,7 @@
   color: #000000;
   margin: auto;
   margin-left: 64px;
+  z-index: 4;
  /* как-то выровнять по центру хэдера вертикально */
 }
 .header__subtitle {
@@ -66,6 +67,7 @@
   bottom: 30px;
   left: 64px;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  z-index: 4;
 
   /* добавить общий стиль шрифта для всей страницы? */
 }
@@ -92,4 +94,16 @@
   right: 0;
   top: 64px;
   z-index: 2;
+}
+
+.two-columns {
+  background-color: #2f80ed;
+}
+
+.brief {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal; 
+    color: #2f80ed;
+    width: 175px;
 }
