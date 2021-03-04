@@ -269,20 +269,22 @@
 
 .footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
   height: 35px;
   width: 183px;
   background-image: url('../images/logo_place_header.svg');
+  background-repeat: no-repeat;
 }
 
 .footer__author {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  position: absolute;
-  bottom: 0;
   margin: 18px 0;
 }
 
