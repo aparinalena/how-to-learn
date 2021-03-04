@@ -40,7 +40,7 @@
   line-height: 25px;
   font-size: 18px;
   width: 388px;
-  font-weight: normal;  
+  font-weight: normal;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -86,7 +86,7 @@
 .two-columns__brief {
   line-height: 1.2;
   font-size: 18px;
-  font-weight: normal; 
+  font-weight: normal;
   color: #2f80ed;
   width: 175px;
   margin: 0;
@@ -146,7 +146,7 @@
 }
 
 .table__cell {
-  width: 250px; 
+  width: 250px;
   margin-top: 60px;
 }
 
@@ -170,7 +170,7 @@
   position: relative;
   height: 790px;
   z-index: 2;
-  background-color: #f2f2f2
+  background-color: #f2f2f2;
 }
 
 .feynman__title {
