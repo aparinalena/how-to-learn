@@ -104,11 +104,9 @@
   margin-top: 0;
 }
 
-.two-columns__main-text p:nth-child(3) {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
-  /*обнулили нижний внешний отступ третьему параграфу*/
 }
-
 
 .two-columns__main-text {
   width: 80%;
@@ -223,6 +221,7 @@
   font-weight: normal;
   position: absolute;
   bottom: 50%;
+  top: 50%;
   right: 48px;
   color: #2f80ed;
   text-decoration: none;
